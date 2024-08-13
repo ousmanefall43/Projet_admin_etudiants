@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f2f5;
+    background-color: #0947a4;
     margin: 0;
     padding: 0;
     display: flex;
@@ -47,7 +47,7 @@ input, select {
     border-radius: 5px;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
-    width: 100%;
+    width: 95%;
 }
 
 input:focus, select:focus {
