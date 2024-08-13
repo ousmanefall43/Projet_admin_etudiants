@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier un Étudiant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Modifier un Étudiant</h1>
+        <form id="modifyStudentForm">
+            <label for="studentId">ID de l'Étudiant:</label>
+            <input type="text" id="studentId" name="studentId" placeholder="ID de l'Étudiant" required>
+
+            <!-- Champs supplémentaires pour modifier les informations de l'étudiant -->
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" placeholder="Nouveau Nom" required>
+
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Nouveau Prénom" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Nouveau Email" required>
+
+            <label for="phone">Téléphone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Nouveau Téléphone" required>
+
+            <label for="niveau">Niveau:</label>
+            <select id="niveau" name="niveau" required>
+                <option value="L1">L1</option>
+                <option value="L2">L2</option>
+                <option value="L3">L3</option>
+                <option value="M1">M1</option>
+                <option value="M2">M2</option>
+            </select>
+
+            <button type="submit">Modifier</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
